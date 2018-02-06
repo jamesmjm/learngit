@@ -1,0 +1,33 @@
+
+jmmao@DST61607 MINGW64 ~
+$ git config --global user.name "jamesm"
+
+jmmao@DST61607 MINGW64 ~
+$ git config --global user.email "jamesm@126.com"
+
+jmmao@DST61607 MINGW64 ~
+$ mkdir learngit
+
+jmmao@DST61607 MINGW64 ~
+$ cd f:
+
+jmmao@DST61607 MINGW64 /f
+$ cd learngit
+
+jmmao@DST61607 MINGW64 /f/learngit
+$ pwd
+/f/learngit
+
+jmmao@DST61607 MINGW64 /f/learngit
+$ git init
+Initialized empty Git repository in F:/learngit/.git/
+
+jmmao@DST61607 MINGW64 /f/learngit (master)
+$ git add readme.txt
+
+jmmao@DST61607 MINGW64 /f/learngit (master)
+$ git commit -m 'wrote a readme file'
+[master (root-commit) 21c04d5] wrote a readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt
+
